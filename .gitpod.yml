@@ -1,0 +1,5 @@
+image: hashicorp/terraform:light
+
+tasks:
+  - init: terraform init
+    command: terraform apply -auto-approve
